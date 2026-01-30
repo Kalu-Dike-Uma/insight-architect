@@ -19,7 +19,7 @@ export function FooterCTA() {
             asChild
             className="gap-2"
           >
-            <a href="#">
+            <a href="/CV.pdf" download target="_blank" rel="noopener noreferrer">
               <Download className="h-4 w-4" />
               Download CV
             </a>

@@ -78,6 +78,15 @@ export function Navbar() {
               <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
             <Button
+              asChild
+              variant="outline"
+              size="sm"
+            >
+              <a href="/CV.pdf" download target="_blank" rel="noopener noreferrer">
+                Download CV
+              </a>
+            </Button>
+            <Button
               onClick={() => scrollToSection("#contact")}
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
@@ -125,8 +134,17 @@ export function Navbar() {
                 </button>
               ))}
               <Button
+                asChild
+                variant="outline"
+                className="mt-2"
+              >
+                <a href="/CV.pdf" download target="_blank" rel="noopener noreferrer">
+                  Download CV
+                </a>
+              </Button>
+              <Button
                 onClick={() => scrollToSection("#contact")}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 mt-2"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 Contact Me
               </Button>
