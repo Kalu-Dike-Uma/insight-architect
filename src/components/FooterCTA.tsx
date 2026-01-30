@@ -30,7 +30,7 @@ export function FooterCTA() {
             asChild
             className="gap-2 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
           >
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:kaldyke@gmail.com">
               <Mail className="h-4 w-4" />
               Contact Me
             </a>

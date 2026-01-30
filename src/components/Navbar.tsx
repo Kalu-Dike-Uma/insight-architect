@@ -87,10 +87,12 @@ export function Navbar() {
               </a>
             </Button>
             <Button
-              onClick={() => scrollToSection("#contact")}
+              asChild
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              Contact Me
+              <a href="mailto:kaldyke@gmail.com">
+                Contact Me
+              </a>
             </Button>
           </div>
 
@@ -143,10 +145,12 @@ export function Navbar() {
                 </a>
               </Button>
               <Button
-                onClick={() => scrollToSection("#contact")}
+                asChild
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
-                Contact Me
+                <a href="mailto:kaldyke@gmail.com">
+                  Contact Me
+                </a>
               </Button>
             </div>
           </div>
